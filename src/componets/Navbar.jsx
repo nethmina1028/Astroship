@@ -15,16 +15,16 @@ const Navbar = () => {
       ];
 
   return (
-    <div className='flex md:flex-row  items-center justify-between p-3 md:px-[18rem]  md:sticky '>
+    <div className='flex md:flex-row  items-center justify-between p-3 md:px-[5rem]  md:sticky '>
         <div>
         <img src={Logo}  alt="Logo" />
         </div>
       
 
-       <ul className=' gap-8 hidden md:flex'>
+       <ul className='hidden gap-8 md:flex'>
                     {navItems.map((item, index) => (
                         <li key={index}>
-                         <a className='hover:text-accent font-medium ' href="">{item.label}</a>  
+                         <a className='font-medium hover:text-accent ' href="">{item.label}</a>  
                         </li>
                     ))} 
        </ul>

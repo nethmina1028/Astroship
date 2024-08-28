@@ -1,3 +1,4 @@
+import Hero from "./componets/Hero"
 import Navbar from "./componets/Navbar"
 
 
@@ -8,7 +9,8 @@ function App() {
    <main className="">
      
       <Navbar />
-      <h1 className="text-2xl ">fdkndfndkfdffdfdff</h1>
+     
+      <Hero />
    </main>
   )
 }
